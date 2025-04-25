@@ -1,0 +1,35 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id=",$_t63|w|l1^WV*p1M!v">Player</variable><variable type="KIND_SpriteKind" id="v]z:A67PYae0}{5@[Y5Y">Projectile</variable><variable type="KIND_SpriteKind" id="s1/sCTvT!9Z:A%H|irZR">Food</variable><variable type="KIND_SpriteKind" id="#{3pA05PY#gge=}{Tgq4">Enemy</variable><variable id="UYKsrdGnTro.+FOmoju*">Boost</variable><variable id="7O4SF7$5!oG^bV%jno{;">Explorer</variable></variables><block type="pxt-on-start" id="4SET}lGqCt[J%v8tanm8" x="36" y="71"><statement name="HANDLER"><block type="set_current_tilemap" id="sGWhzLL$q|skZ_DE*_+U"><value name="tilemap"><shadow type="tiles_tilemap_editor" id="(_MyNN[;=AHV@|.s/f+d"><field name="tilemap">tilemap`level1`</field><data>{"commentRefs":[],"fieldData":{"tilemap":"level1"}}</data></shadow></value><next><block type="variables_set" id="PQsjeTE7$/uQKpYz9DqS"><field name="VAR" id="7O4SF7$5!oG^bV%jno{;">Explorer</field><value name="VALUE"><shadow type="math_number" id="6KuUREh;54`wKHOT8`+6"><field name="NUM">0</field></shadow><block type="spritescreate" id="5xi|yml;(b^{sNQfZ%~U"><value name="img"><shadow type="screen_image_picker" id="dY31+etg#(}rq@E-x{2B"><field name="img">img`
+. . . . . . 5 . 5 . . . . . . . 
+. . . . . f 5 5 5 f f . . . . . 
+. . . . f 1 5 2 5 1 6 f . . . . 
+. . . f 1 6 6 6 6 6 1 6 f . . . 
+. . . f 6 6 f f f f 6 1 f . . . 
+. . . f 6 f f d d f f 6 f . . . 
+. . f 6 f d f d d f d f 6 f . . 
+. . f 6 f d 3 d d 3 d f 6 f . . 
+. . f 6 6 f d d d d f 6 6 f . . 
+. f 6 6 f 3 f f f f 3 f 6 6 f . 
+. . f f d 3 5 3 3 5 3 d f f . . 
+. . f d d f 3 5 5 3 f d d f . . 
+. . . f f 3 3 3 3 3 3 f f . . . 
+. . . f 3 3 5 3 3 5 3 3 f . . . 
+. . . f f f f f f f f f f . . . 
+. . . . . f f . . f f . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":null}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="I3wJO]q5k-x5M41dow(I"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="variables_set" id="xt/^_fEzW-Ll3Ze[e[KL"><field name="VAR" id="UYKsrdGnTro.+FOmoju*">Boost</field><value name="VALUE"><shadow type="math_number" id="A5RKWW]SdSoeWluM~3.Q"><field name="NUM">0</field></shadow><block type="spritescreate" id="MSEH_ZD#Y[h~zI.54PgD"><value name="img"><shadow type="screen_image_picker" id="Otm9/i?t#$W|^|910kV7"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . 6 6 6 6 . . . . . . 
+. . . . 6 6 6 5 5 6 6 6 . . . . 
+. . . 7 7 7 7 6 6 6 6 6 6 . . . 
+. . 6 7 7 7 7 8 8 8 1 1 6 6 . . 
+. . 7 7 7 7 7 8 8 8 1 1 5 6 . . 
+. 6 7 7 7 7 8 8 8 8 8 5 5 6 6 . 
+. 6 7 7 7 8 8 8 6 6 6 6 5 6 6 . 
+. 6 6 7 7 8 8 6 6 6 6 6 6 6 6 . 
+. 6 8 7 7 8 8 6 6 6 6 6 6 6 6 . 
+. . 6 8 7 7 8 6 6 6 6 6 8 6 . . 
+. . 6 8 8 7 8 8 6 6 6 8 6 6 . . 
+. . . 6 8 8 8 8 8 8 8 8 6 . . . 
+. . . . 6 6 8 8 8 8 6 6 . . . . 
+. . . . . . 6 6 6 6 . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":null}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="-,R?I?aM-[T$}yG=h)d?"><field name="MEMBER">Player</field></shadow></value></block></value></block></next></block></next></block></statement></block></xml>
